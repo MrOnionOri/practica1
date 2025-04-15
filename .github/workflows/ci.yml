@@ -34,7 +34,7 @@ jobs:
         run: pytest
 
       - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@master
+        uses: SonarSource/sonarqube-scan-action@v1.3.0
         with:
           projectBaseDir: .
         env:
